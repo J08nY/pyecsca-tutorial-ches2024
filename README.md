@@ -1,8 +1,8 @@
-# Reverse-Engineering ECC implementations Using Side-Channel Analysis
+# Side-channel-based Reverse-Engineering of ECC implementations
 
-[![pyecsca](notebooks/img/logo_black_full.png)](https://neuromancer.sk/pyecsca/)
+[![pyecsca](notebooks/img/logo_black_full.png)](https://pyecsca.org)
 
-Welcome to the *Reverse-Engineering ECC implementations Using Side-Channel Analysis* tutorial.
+Welcome to the *Side-channel-based Reverse-Engineering of ECC implementations* tutorial.
 
 During this tutorial you will learn why it makes sense to reverse-engineer ECC implementations,
 what ECC implementations look like and how to actually reverse-engineer them automatically using
