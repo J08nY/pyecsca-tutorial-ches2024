@@ -2,8 +2,8 @@
 
 You have two options for getting ready for the tutorial:
  - Install several Python packages. [More info](#installing-everything-yourself)
- - Use [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/J08nY/pyecsca-tutorial-croatia2024/HEAD). [More info](#using-mybinder)
- - Use [![Static Badge](https://img.shields.io/badge/docker-available-blue?logo=docker)](https://hub.docker.com/r/j08ny/pyecsca-tutorial-croatia2024). [More info](#using-docker)
+ - Use [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/J08nY/pyecsca-tutorial-ches2024/HEAD). [More info](#using-mybinder)
+ - Use [![Static Badge](https://img.shields.io/badge/docker-available-blue?logo=docker)](https://hub.docker.com/r/j08ny/pyecsca-tutorial-ches2024). [More info](#using-docker)
 
 > [!NOTE]
 > We recommend installing things yourself as myBinder has some limitations
@@ -51,7 +51,7 @@ You will need a Python environment to run the code during the tutorial.
 ### Python stuff
 
 `python >= 3.9` and installed dependencies from [requirements.txt](/requirements.txt), which
-include [pyecsca](https://neuromancer.sk/pyecsca/).
+include [pyecsca](https://pyecsca.org).
 
 You can find **known-good versions of the packages** in the [known.txt](/known.txt) file, which
 you can use instead of the requirements file.
@@ -93,7 +93,7 @@ to start Jupyter Lab.
 
 ## Using MyBinder
 
-Simply navigate to [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/J08nY/pyecsca-tutorial-croatia2024/HEAD)
+Simply navigate to [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/J08nY/pyecsca-tutorial-ches2024/HEAD)
 and wait for the Jupyter lab interface to load.
 
 > [!WARNING]
@@ -105,12 +105,12 @@ and download them using the `wget` command (i.e. `wget <URL>`).
 
 ## Using Docker
 
-We created a Docker image with everything prepared for the tutorial, available [here](https://hub.docker.com/r/j08ny/pyecsca-tutorial-croatia2024).
+We created a Docker image with everything prepared for the tutorial, available [here](https://hub.docker.com/r/j08ny/pyecsca-tutorial-ches2024).
 Ensure you have Docker running and then run the commands below.
 
 ```bash
-docker pull j08ny/pyecsca-tutorial-croatia2024
-docker run --rm -p 8888:8888 j08ny/pyecsca-tutorial-croatia2024 jupyter lab --ip 0.0.0.0
+docker pull j08ny/pyecsca-tutorial-ches2024
+docker run --rm -p 8888:8888 j08ny/pyecsca-tutorial-ches2024 jupyter lab --ip 0.0.0.0
 ```
 
 > [!WARNING]
