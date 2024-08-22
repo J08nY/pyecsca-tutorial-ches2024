@@ -99,7 +99,7 @@ and wait for the Jupyter lab interface to load.
 > [!WARNING]
 > myBinder times out after 10 minutes of inactivity. To prevent that, open a terminal session when the lab first loads.
 
-Some exercises require you to download trace sets. To do this on MyBinder, use a terminal session
+Some exercises require you to download trace sets. To do this on MyBinder, use a terminal session in JupyterLab 
 and download them using the `wget` command (i.e. `wget <URL>`).
 
 
@@ -116,3 +116,6 @@ docker run --rm -p 8888:8888 j08ny/pyecsca-tutorial-ches2024 jupyter lab --ip 0.
 > [!WARNING]
 > Note that when you shutdown the Docker container you will lose all of your progress in the notebooks.
 > If you want to save your progress, download the notebooks using the Download button at the top of the JupyterLab tab.
+
+Some exercises require you to download trace sets. To do this inside the docker image, use a terminal session in JupyterLab
+and download them using the `wget` command (i.e. `wget <URL>`).
