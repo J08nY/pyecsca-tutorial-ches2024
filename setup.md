@@ -1,9 +1,9 @@
 # Setup
 
 You have three options for getting ready for the tutorial:
- - Install several Python packages. [More info](#installing-everything-yourself)
- - Use [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/J08nY/pyecsca-tutorial-ches2024/HEAD). [More info](#using-mybinder)
- - Use [![Static Badge](https://img.shields.io/badge/docker-available-blue?logo=docker)](https://hub.docker.com/r/j08ny/pyecsca-tutorial-ches2024). [More info](#using-docker)
+ 1. Install several Python packages. [More info](#installing-everything-yourself)
+ 2. Use [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/J08nY/pyecsca-tutorial-ches2024/HEAD). [More info](#using-mybinder)
+ 3. Use [![Static Badge](https://img.shields.io/badge/docker-available-blue?logo=docker)](https://hub.docker.com/r/j08ny/pyecsca-tutorial-ches2024). [More info](#using-docker)
 
 > [!NOTE]
 > We recommend installing things yourself as myBinder has some limitations
@@ -44,7 +44,7 @@ You can use tab-completion to learn about the attributes or methods of an object
 By typing `object?` you will get a help message with documentation of the object/function/class/method, same
 goes for `object.method?` or `class.method?`.
 
-## Installing everything yourself
+## 1. Installing everything yourself
 
 You will need a Python environment to run the code during the tutorial.
 
@@ -91,7 +91,7 @@ python -m jupyter lab
 ```
 to start Jupyter Lab.
 
-## Using MyBinder
+## 2. Using MyBinder
 
 Simply navigate to [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/J08nY/pyecsca-tutorial-ches2024/HEAD)
 and wait for the Jupyter lab interface to load.
@@ -103,7 +103,7 @@ Some exercises require you to download trace sets. To do this on MyBinder, use a
 and download them using the `wget` command (i.e. `wget <URL>`).
 
 
-## Using Docker
+## 3. Using Docker
 
 We created a Docker image with everything prepared for the tutorial, available [here](https://hub.docker.com/r/j08ny/pyecsca-tutorial-ches2024).
 Ensure you have Docker running and then run the commands below.
