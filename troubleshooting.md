@@ -1,8 +1,21 @@
+## I can not install `requirements.txt`
+
+For some reason (likely the Python version), you are unable
+to install the requirements from `requirements.txt`.
+
+### Solution
+
+Install the requirements from `requirements.in` which are not
+pinned to concrete versions.
+
+---
+
 ## I see empty space instead of plots
 
 You are not seeing any plots even in cells that should have them.
 
 ### Solution
+
 What may be happening is that Bokeh (the plotting library we are using)
 requires loading some JavaScript on the client side. This JavaScript load
 may not work in case you do not have a reliable Internet connection or have
@@ -14,6 +27,8 @@ and make sure no requests like this are blocked.
 
 You can check the browser developer tools console for the dropped requests.
 
+---
+
 ## I see `:DynamicMap   []` instead of plots
 
 You are seeing `:DynamicMap   []` in place of plots.
@@ -22,6 +37,8 @@ You are seeing `:DynamicMap   []` in place of plots.
 
 Run the cell that contains the `hv.extension("bokeh")` call (usually one of the first)
 that initializes the plotting library.
+
+---
 
 ## KeyError: 'content'
 

@@ -1,6 +1,6 @@
 # Setup
 
-You have two options for getting ready for the tutorial:
+You have three options for getting ready for the tutorial:
  - Install several Python packages. [More info](#installing-everything-yourself)
  - Use [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/J08nY/pyecsca-tutorial-ches2024/HEAD). [More info](#using-mybinder)
  - Use [![Static Badge](https://img.shields.io/badge/docker-available-blue?logo=docker)](https://hub.docker.com/r/j08ny/pyecsca-tutorial-ches2024). [More info](#using-docker)
