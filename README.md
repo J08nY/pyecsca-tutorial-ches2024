@@ -9,3 +9,5 @@ what ECC implementations look like and how to actually reverse-engineer them aut
 side-channel analysis.
 
 See the [setup](setup.md) instructions, if something doesn't work see [troubleshooting](troubleshooting.md).
+
+Read [the paper](https://pyecsca.org/papers.html?utm_source=tutorial-ches2024#pyecsca-reverse-engineering-black-box-elliptic-curve-cryptography-via-side-channel-analysis) for more.
