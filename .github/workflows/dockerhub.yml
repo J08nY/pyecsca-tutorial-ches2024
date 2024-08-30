@@ -16,3 +16,15 @@ jobs:
         BINDER_CACHE: true
         NO_GIT_PUSH: true
         PUBLIC_REGISTRY_CHECK: true
+
+    - name: Trigger OVH mybinder rebuild
+      continue-on-error: true
+      run: curl -L --connect-timeout 20 --max-time 900 https://ovh.mybinder.org/build/gh/$GITHUB_REPOSITORY/HEAD
+
+    - name: Trigger CurveNote mybinder rebuild
+      continue-on-error: true
+      run: curl -L --connect-timeout 20 --max-time 900 https://binder.curvenote.dev/build/gh/$GITHUB_REPOSITORY/HEAD
+
+    - name: Trigger GESIS mybinder rebuild
+      continue-on-error: true
+      run: curl -L --connect-timeout 20 --max-time 900 https://notebooks.gesis.org/binder/build/gh/J08nY/pyecsca-tutorial-ches2024/HEAD
