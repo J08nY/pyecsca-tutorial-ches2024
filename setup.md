@@ -23,7 +23,7 @@ Furthermore, please download the example trace sets:
 2. You have downloaded the tracesets above and placed them into the `notebooks` diretory.
 3. Run `python -m jupyter lab` in the virtualenv with the mentioned Python packages installed. Open the
    `notebooks/start.ipynb` notebook and run the first cell with the imports.
-   No errors (especially import ones) should be produced. See [troubleshooting.md] if they are.
+   No errors (especially import ones) should be produced. See [troubleshooting.md](troubleshooting.md) if they are.
 4. You can continue running the rest of the prepared cells and play with the toolkit to
    learn about some of its API.
 
