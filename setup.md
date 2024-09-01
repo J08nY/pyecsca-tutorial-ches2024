@@ -12,10 +12,12 @@ You have three options for getting ready for the tutorial:
 Furthermore, please download the example trace sets:
  - All tracesets (preferred): [zip](https://neuromancer.sk/static/traces.zip) or [tar.gz](https://neuromancer.sk/static/traces.tar.gz)
  - Or individually:
-   - [Traceset A](https://neuromancer.sk/static/traces_A.pickle) 
-   - [Traceset B](https://neuromancer.sk/static/traces_B.pickle) 
-   - [Traceset C](https://neuromancer.sk/static/traces_C.pickle)  
-   - [Traceset D](https://neuromancer.sk/static/traces_D.pickle)  
+   - [Traceset A](https://neuromancer.sk/static/traces_A.pickle)
+   - [Traceset B](https://neuromancer.sk/static/traces_B.pickle)
+   - [Traceset C](https://neuromancer.sk/static/traces_C.pickle)
+   - [Traceset D](https://neuromancer.sk/static/traces_D.pickle)
+
+You can also use a cell in the "implementations" notebook to download them.
 
 ## How do I know the setup is ready?
 
@@ -98,10 +100,8 @@ and wait for the Jupyter lab interface to load.
 
 > [!WARNING]
 > myBinder times out after 10 minutes of inactivity. To prevent that, open a terminal session when the lab first loads.
-
-Some exercises require you to download trace sets. To do this on MyBinder, use a terminal session in JupyterLab 
-and download them using the `wget` command (i.e. `wget <URL>`).
-
+> Note that you will lose all of your progress in the notebooks if it times out or you close the session.
+> If you want to save your progress, download the notebooks using the Download button at the top of the JupyterLab tab.
 
 ## Using Docker
 
@@ -116,6 +116,3 @@ docker run --rm -p 8888:8888 j08ny/pyecsca-tutorial-ches2024 jupyter lab --ip 0.
 > [!WARNING]
 > Note that when you shutdown the Docker container you will lose all of your progress in the notebooks.
 > If you want to save your progress, download the notebooks using the Download button at the top of the JupyterLab tab.
-
-Some exercises require you to download trace sets. To do this inside the docker image, use a terminal session in JupyterLab
-and download them using the `wget` command (i.e. `wget <URL>`).
